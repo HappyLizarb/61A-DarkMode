@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "CS61A Dark (Hybrid Minimal v1.1.2)",
+  "version": "1.1.2",
+  "description": "Invert-based dark mode for cs61a.org + minimal border fixes (no button/background tweaks).",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://cs61a.org/*",
+        "http://cs61a.org/*"
+      ],
+      "css": [
+        "dark.css"
+      ],
+      "run_at": "document_start"
+    }
+  ]
+}
