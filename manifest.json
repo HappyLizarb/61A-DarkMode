@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "CS61A Dark (Hybrid Minimal v1.1.2)",
-  "version": "1.1.2",
-  "description": "Invert-based dark mode for cs61a.org + minimal border fixes (no button/background tweaks).",
+  "name": "CS61A Dark Theme",
+  "version": "1.1.5",
+  "description": "Dark Mode designed for cs61a.org (only)",
   "content_scripts": [
     {
       "matches": [
