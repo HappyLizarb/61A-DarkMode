@@ -1,16 +1,15 @@
-/* CS61A Dark (Hybrid Minimal v1.1.2)
-   Keep your original look: invert on page + re-invert media,
-   and ONLY fix the bright hairline borders. */
+/* CS61A Dark Theme (Hybrid Minimal v1.1.5)
+Keep the original look: invert on page + re-invert media */
 
 :root { color-scheme: dark; }
 
-/* --- Base: invert page colors, re-invert media --- */
+/* (Base): invert page colors & re-invert media */
 html { filter: invert(1) hue-rotate(180deg); }
 img, video, picture, canvas, svg, iframe {
   filter: invert(1) hue-rotate(180deg) !important;
 }
 
-/* --- Minimal hairline fixes --- */
+/* hairline fixes */
 
 /* Tables: darker borders only (no bg changes) */
 .table,
@@ -28,7 +27,7 @@ th, td {
 /* Horizontal rules */
 hr { border-top-color: #2a2f3a !important; }
 
-/* Navbar/dropdowns: remove faint gradient/shadow line; keep existing colors */
+/* Navbar/dropdowns: remove faint gradient/shadow line; keep existing colors (customisable) */
 .navbar,
 .navbar-default {
   background-image: none !important;
@@ -40,5 +39,3 @@ hr { border-top-color: #2a2f3a !important; }
   border-color: #2a2f3a !important;
   box-shadow: none !important;
 }
-
-/* Intentionally no rules for .btn / buttons and no body/background overrides */
